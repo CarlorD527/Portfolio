@@ -19,62 +19,32 @@ interface Project {
 export class SkillsComponent implements OnInit {
   skills: Skill[] = [
     {
-      name: 'HTML / CSS / JavaScript',
-      time: '4/1/2020',
+      name: 'ASP .NET C#',
+      time: '4/1/2022',
       projects: [
         {
-          name: 'CalculatorGame',
-          url: 'https://alexma2.github.io/CalculatorGame/',
-        },
-        {
-          name: 'Animacion-del-Algoritmo-QuickSort',
-          url: 'https://alexma2.github.io/Animacion-del-Algoritmo-QuickSort/',
+          name: 'DooFast - API Restaurante con arquitectura en capas',
+          url: 'https://github.com/CarlorD527/DooFast',
         },
       ],
     },
     {
-      name: 'Angular / TypeScript',
+      name: '.NET 6 C#',
       time: '12/1/2021',
       projects: [
         {
-          name: 'DooFast',
-          url: 'https://github.com/AlexMA2/DooFast-FrontEnd',
-        },
-        {
-          name: 'Authentication',
-          url: 'https://github.com/AlexMA2/Authentication',
+          name: 'PawClues - API para aplicación que permite buscar mascotas perdidas',
+          url: 'https://github.com/CarlorD527/PawClues-API.git',
         },
       ],
     },
     {
-      name: 'React.JS / Next.JS',
-      time: '4/1/2021',
+      name: '.NET 7 C# Docker',
+      time: '2/1/2023',
       projects: [
         {
-          name: 'ColesRoom',
-          url: 'https://github.com/AlexMA2/ColesRoom-Frontend',
-        },
-        {
-          name: 'Questionary',
-          url: 'https://github.com/AlexMA2/Questionary',
-        },
-        {
-          name: 'Pokedex Pokemon',
-          url: 'https://github.com/AlexMA2/pokemon-pokedex',
-        },
-      ],
-    },
-    {
-      name: 'ASP. NET / C #',
-      time: '3/1/2022',
-      projects: [
-        {
-          name: 'Veterinaria API',
-          url: 'https://github.com/AlexMA2/API-VeterinariaAPP',
-        },
-        {
-          name: 'Pizzeria API',
-          url: 'https://github.com/AlexMA2/PizzeriaAPI',
+          name: 'Doofast 2.0 Dockerizado',
+          url: 'https://github.com/CarlorD527/DooFast2.0.git',
         },
       ],
     },
